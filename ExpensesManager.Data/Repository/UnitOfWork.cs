@@ -18,8 +18,6 @@ namespace ExpensesManager.DataAccess.Repository
            
         }
 
-        
-
         public void Dispose()
         {
             _db.Dispose();
